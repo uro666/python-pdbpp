@@ -6,7 +6,7 @@ Version:	0.10.3
 Release:	1
 Summary:	PDB++, a drop-in replacement for pdb
 URL:		https://github.com/pdbpp/pdbpp
-License:	BSD
+License:	BSD-3-Clause
 Group:		Development/Python
 Source0:	https://files.pythonhosted.org/packages/source/p/pdbpp/pdbpp-%{version}.tar.gz
 BuildSystem:	python
