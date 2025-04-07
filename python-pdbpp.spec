@@ -20,6 +20,9 @@ BuildRequires:	python%{pyver}dist(fancycompleter)
 BuildRequires:	python%{pyver}dist(pdm-backend)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(setuptools-scm)
+%if %{with test}
+BuildRequires:	python%{pyver}dist(pytest)
+%endif
 
 
 %description
