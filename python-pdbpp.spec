@@ -22,6 +22,7 @@ BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(setuptools-scm)
 %if %{with test}
 BuildRequires:	python%{pyver}dist(pytest)
+BuildRequires:	ipython
 %endif
 
 
