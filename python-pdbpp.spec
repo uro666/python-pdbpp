@@ -4,7 +4,7 @@
 Name:		python-pdbpp
 Version:	0.10.3
 Release:	1
-Summary:	pdb++, a drop-in replacement for pdb
+Summary:	PDB++, a drop-in replacement for pdb
 URL:		https://github.com/pdbpp/pdbpp
 License:	BSD
 Group:		Development/Python
@@ -19,9 +19,11 @@ BuildRequires:	python%{pyver}dist(wmctrl)
 BuildRequires:	python%{pyver}dist(fancycompleter)
 BuildRequires:	python%{pyver}dist(pdm-backend)
 BuildRequires:	python%{pyver}dist(setuptools)
+BuildRequires:	python%{pyver}dist(setuptools-scm)
+
 
 %description
-pdb++, a drop-in replacement for pdb
+PDB++, a drop-in replacement for pdb.
 
 %prep
 %autosetup -p1 -n %{module}-%{version}
